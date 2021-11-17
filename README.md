@@ -1,4 +1,4 @@
-This repository features some of the mini projects I have build using HTML and CSS
+This repository features some of the mini projects I have built using HTML and CSS
 
 1: Landing Page
 
