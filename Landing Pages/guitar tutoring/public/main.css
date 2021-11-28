@@ -1,0 +1,160 @@
+p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+h5 {
+    font-size: 2.0rem;
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-section {
+    height: 100vh;
+}
+
+.first-section-text-box {
+    text-align: center;
+}
+
+.background-image {
+    height: 100%;
+    background-image: url("./guitar-player.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.background-layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.first-section-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+    font-weight: bold;
+}
+
+.first-section-text-box h1 {
+    font-weight:600;
+}
+
+.para p {
+    font-weight: 200;
+    font-size: 1.6rem
+}
+
+.sign-up button {
+    width: 200px;
+    border: 0;
+    background-color: rgb(33, 114, 37);
+    color: white;
+    margin-top: 1rem;
+}
+
+.sign-up button p {
+    font-size: 1rem
+}
+
+.second-section {
+    background-color: white;
+    padding: 2rem;
+ 
+}
+
+
+.section-header {
+  
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+}
+
+.team-photos {
+   
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+}
+
+.photo {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.photo-details {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section-title {
+
+    font-size: 1.8rem;
+}
+
+.section-para {
+    display: flex;
+    justify-content:  center;
+    padding-bottom: 2rem;
+}
+
+.section-para p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 300;
+    width: 50%;    
+    color: rgb(126, 126, 126);
+    padding-bottom: 1rem;
+}
+
+.photo-details p  {
+    font-size: 1.2rem;
+     padding-top: 1rem;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.info p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    color: rgb(180, 180, 180)	
+}
+
+.third-section {
+    height: 100vh;
+    background-color: brown;
+}
+
